@@ -42,5 +42,5 @@ public class LogicTest {
                 logic.move(Cell.A2, Cell.A4));
         assertThat(exception.getMessage()).isEqualTo("Could not way by diagonal from %s to %s",
                 Cell.A2, Cell.A4);
-    }1
+    }
 }
