@@ -47,6 +47,5 @@ class BishopBlackTest {
         assertEquals("Could not way by diagonal from C1 to C2",
                 exception.getMessage()
         );
-    }
-
+    }1
 }
