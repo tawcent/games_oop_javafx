@@ -14,7 +14,7 @@ class BishopBlackTest {
         Cell start = Cell.findBy(7, 2);
         BishopBlack bishopBlack = new BishopBlack(start);
         Cell finish = bishopBlack.position();
-        assertThat(finish). isEqualTo(start);
+        assertThat(finish).isEqualTo(start);
     }
 
     @Test
